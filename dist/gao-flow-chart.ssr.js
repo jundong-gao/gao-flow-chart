@@ -315,7 +315,7 @@ var FlowItem = __vue_component__$1;var script = {
     this.$nextTick(function () {
       var _this$options2;
       var dom = document.getElementById(_this.id);
-      _this.zoom = dom.parentNode.clientWidth / (((_this$options2 = _this.options) === null || _this$options2 === void 0 || (_this$options2 = _this$options2.style) === null || _this$options2 === void 0 ? void 0 : _this$options2.width) || dom.parentNode.clientWidth);
+      _this.zoom = dom.parentNode.clientWidth / (((_this$options2 = _this.options) === null || _this$options2 === void 0 || (_this$options2 = _this$options2.detail) === null || _this$options2 === void 0 ? void 0 : _this$options2.width) || dom.parentNode.clientWidth);
       _this.init();
     });
   },
@@ -404,7 +404,7 @@ var __vue_render__ = function __vue_render__() {
     attrs: {
       "id": _vm.id
     }
-  }, [_vm._ssrNode("<div id=\"flow-build\" class=\"flow-build\"" + _vm._ssrStyle(null, _vm.detailStyle, null) + " data-v-4050d420>", "</div>", _vm._l(_vm.options.nodes, function (item) {
+  }, [_vm._ssrNode("<div id=\"flow-build\" class=\"flow-build\"" + _vm._ssrStyle(null, _vm.detailStyle, null) + " data-v-e50551f8>", "</div>", _vm._l(_vm.options.nodes, function (item) {
     return _c('FlowItem', {
       key: item.id,
       staticClass: "flow-build-item",
@@ -421,20 +421,20 @@ var __vue_staticRenderFns__ = [];
 /* style */
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-4050d420_0", {
+  inject("data-v-e50551f8_0", {
     source: "",
     map: undefined,
     media: undefined
-  }), inject("data-v-4050d420_1", {
-    source: ".gao-flow-chart[data-v-4050d420]{width:100%;height:100%}.flow-build[data-v-4050d420]{position:relative;width:100%;height:100%}.flow-build-item[data-v-4050d420]{position:absolute;width:100px;height:100px}",
+  }), inject("data-v-e50551f8_1", {
+    source: ".gao-flow-chart[data-v-e50551f8]{width:100%;height:100%}.flow-build[data-v-e50551f8]{position:relative;width:100%;height:100%}.flow-build-item[data-v-e50551f8]{position:absolute;width:100px;height:100px}",
     map: undefined,
     media: undefined
   });
 };
 /* scoped */
-var __vue_scope_id__ = "data-v-4050d420";
+var __vue_scope_id__ = "data-v-e50551f8";
 /* module identifier */
-var __vue_module_identifier__ = "data-v-4050d420";
+var __vue_module_identifier__ = "data-v-e50551f8";
 /* functional template */
 var __vue_is_functional_template__ = false;
 /* style inject shadow dom */

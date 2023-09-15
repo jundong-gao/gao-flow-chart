@@ -238,7 +238,7 @@ var script = {
   mounted() {
     this.$nextTick(() => {
       let dom = document.getElementById(this.id);
-      this.zoom = dom.parentNode.clientWidth / (this.options?.style?.width || dom.parentNode.clientWidth);
+      this.zoom = dom.parentNode.clientWidth / (this.options?.detail?.width || dom.parentNode.clientWidth);
       this.init();
     });
   },
@@ -352,18 +352,18 @@ var __vue_staticRenderFns__ = [];
 /* style */
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-4050d420_0", {
+  inject("data-v-e50551f8_0", {
     source: "",
     map: undefined,
     media: undefined
-  }), inject("data-v-4050d420_1", {
-    source: ".gao-flow-chart[data-v-4050d420]{width:100%;height:100%}.flow-build[data-v-4050d420]{position:relative;width:100%;height:100%}.flow-build-item[data-v-4050d420]{position:absolute;width:100px;height:100px}",
+  }), inject("data-v-e50551f8_1", {
+    source: ".gao-flow-chart[data-v-e50551f8]{width:100%;height:100%}.flow-build[data-v-e50551f8]{position:relative;width:100%;height:100%}.flow-build-item[data-v-e50551f8]{position:absolute;width:100px;height:100px}",
     map: undefined,
     media: undefined
   });
 };
 /* scoped */
-const __vue_scope_id__ = "data-v-4050d420";
+const __vue_scope_id__ = "data-v-e50551f8";
 /* module identifier */
 const __vue_module_identifier__ = undefined;
 /* functional template */
