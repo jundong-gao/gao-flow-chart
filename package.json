@@ -1,6 +1,6 @@
 {
   "name": "gao-flow-chart",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "流程图渲染组件",
   "private": false,
   "license": "MIT",

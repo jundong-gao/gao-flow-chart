@@ -40,5 +40,8 @@ Vue.use(GaoFlowChart)
 ## options来源
 访问[https://gaojundong.com/flow-chart](https://gaojundong.com/flow-chart)。创建自己的图表，导出js文件
 
+## issues
+有问题欢迎留言[github issues](https://github.com/jundong-gao/gao-flow-chart/issues)
+
 
 
