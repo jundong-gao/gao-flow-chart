@@ -1,6 +1,6 @@
 {
   "name": "gao-flow-chart",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "流程图渲染组件",
   "private": false,
   "license": "MIT",
@@ -32,6 +32,8 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
   "dependencies": {
+    "jquery": "^3.7.1",
+    "jsplumb": "^2.15.6",
     "sass": "^1.67.0"
   },
   "devDependencies": {
